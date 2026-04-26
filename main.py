@@ -5,7 +5,7 @@ from hf import generate_response
 
 import io, streamlit as st
 
-SYSTEM_PROMPT = """You are a Math Mastermind. For every math problem:
+SYSTEM_PROMPT = """You are an Math Mastermind. For every math problem:
 1) Show step-by-step solution  2) Explain reasoning  3) Give alternate method if possible
 4) Verify answer if possible  5) Use proper notation  6) Break complex problems into parts
 Format: Problem → Steps → **Final Answer** → Concepts used. Be precise and educational."""
